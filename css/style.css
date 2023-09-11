@@ -41,6 +41,27 @@ font-family: 'Quicksand', sans-serif;
    display: inline-block; /* Hace que los elementos de navegación estén en línea */
    margin-right: 30px; /* Espacio entre elementos de navegación */
  }
+
+
+ .medios-sociales-iconos {
+  margin-right: 30px; /* Espacio entre elementos de navegación */
+  text-decoration: none; /* Subrayado al pasar el cursor sobre los enlaces */
+  background-color: #000000; /* Cambia el color de fondo cuando el cursor pasa sobre el elemento */
+  color: #ffffff; /* Cambia el color del texto por defecto */
+  transform: scale(1); /* Escala normal por defecto */
+  transition: all 0.5s ease; /* Establece una transición suave de 0.5 segundos para todos los cambios */
+  font-size: 50px; /* Tamaño de letra por defecto */
+  border-radius: 2em; /* Radio de los bordes redondeados por defecto */
+  padding: 8px; /* Espacio entre el contenido y el borde (fondo negro) por defecto */
+}
+
+.medios-sociales-iconos:hover {
+  color: #ff0000; /* Cambia el color del texto al pasar el mouse */
+  transform: scale(1.5); /* Aumenta el tamaño en un 10% al pasar el mouse */
+}
+
+
+
  
  .menuNavegacion a {
    color: #000000; /* Color de texto de los enlaces */
@@ -100,6 +121,11 @@ font-family: 'Quicksand', sans-serif;
  align-items: center; /* Alinea los elementos verticalmente en el centro */
  min-height: 100vh; /* Establece la altura mínima del contenedor al 100% del alto de la ventana */
 
+}
+
+.ubicacionGoogle{
+  border-style: solid;
+  background-color: #f1b21f;
 }
 
 .contenedor.head::before {
@@ -296,5 +322,5 @@ height: auto;
 
 
 .medios-sociales{
-  background-color: #000000;
+  background-color:  rgb(255, 228, 196);
 }
