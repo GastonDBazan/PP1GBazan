@@ -41,11 +41,6 @@ font-family: 'Quicksand', sans-serif;
    display: inline-block; /* Hace que los elementos de navegación estén en línea */
    margin-right: 30px; /* Espacio entre elementos de navegación */
  }
-
-
-
-
-
  
  .menuNavegacion a {
    color: #000000; /* Color de texto de los enlaces */
@@ -73,10 +68,6 @@ font-family: 'Quicksand', sans-serif;
    margin: auto;
    padding: 40px 0;
  }
-/*.contenedor img {
-    width: 40%;
-    height: auto;
-  }*/
   
  header{
   height: 100vh;
@@ -126,19 +117,11 @@ font-family: 'Quicksand', sans-serif;
 
 .citaEsperanzaViva {
   font-size: 0.8em;
-}
-/* Establecemos el ancho del logo */
+} 
+
 #logo {
   width: 15em;
 }
-
- /*TIPOS DE LETRAS 
-  font-family: 'Bangers', cursive;
-  font-family: 'Freckle Face', cursive;
-  font-family: 'Quicksand', sans-serif;
-  font-family: 'Oswald', sans-serif;
-  */
-
 
 
   .cuerpo .contenedo{
@@ -303,26 +286,40 @@ height: auto;
   height: auto;
 
 }
-
-
-.medios-sociales{
-  background-color:  rgb(255, 228, 196);
+#encontranos {
+  background-color: #333; /* Color de fondo del footer */
+  padding: 1px 0; /* Espaciado interior del footer (reduce la altura ajustando el valor vertical) */
+  text-align: center; /* Alineación del texto */
 }
 
+.textoEnContacto {
+  color: #fff; /* Color del texto */
+  font-size: 28px; /* Tamaño de fuente */
+  margin-bottom: 10px; /* Espaciado inferior del texto */
+  background-color: transparent; /* Anula el background-color del h2 dentro del footer */
+}
 
 .medios-sociales-iconos {
-  margin-right: 30px; /* Espacio entre elementos de navegación */
-  text-decoration: none; /* Subrayado al pasar el cursor sobre los enlaces */
-  background-color: #000000; /* Cambia el color de fondo cuando el cursor pasa sobre el elemento */
-  color: #ffffff; /* Cambia el color del texto por defecto */
-  transform: scale(1); /* Escala normal por defecto */
-  transition: all 0.5s ease; /* Establece una transición suave de 0.5 segundos para todos los cambios */
-  font-size: 50px; /* Tamaño de letra por defecto */
-  border-radius: 2em; /* Radio de los bordes redondeados por defecto */
-  padding: 8px; /* Espacio entre el contenido y el borde (fondo negro) por defecto */
+  font-size: 44px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: filter 0.3s; /* Agregamos una transición suave al filtro */
 }
 
 .medios-sociales-iconos:hover {
-  color: #ff0000; /* Cambia el color del texto al pasar el mouse */
-  transform: scale(1.5); /* Aumenta el tamaño en un 10% al pasar el mouse */
+  filter: brightness(1.8); /* Cambia el brillo al 70% cuando el cursor pasa sobre el ícono */
+ 
 }
+
+#facebook {
+  color: #3b5998; /* Color de Facebook */
+}
+
+#instagram {
+  color: #bc2a8d; /* Color de Instagram */
+}
+
+#youtube {
+  color: #ff0000; /* Color de YouTube */
+}
+
